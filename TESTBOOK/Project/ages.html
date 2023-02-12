@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web site created using javascript"/>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="ages.css">
+  </head>
+  <body>
+    <div id="main">
+        <h1>Ages</h1>
+        <div id="scorearea">
+            <label id="timer"></label>
+            <label><b>SCORE :</b></label>
+        <label id="score"></label>
+        </div>
+        <fieldset id="question">
+            <legend id="questionNo">
+                <p id="qno"><b id="bold"></b></p>
+            </legend>   
+            <button id="pipedata">Start</button>
+            <div>
+                <p id="data"></p>
+                <ul class="hidden" id="list">
+                    <li><button id="A"></button></li>&nbsp;&nbsp;
+                    <li><button id="B"></button></li>&nbsp;&nbsp;
+                    <li><button id="C"></button></li>&nbsp;&nbsp;
+                    <li><button id="D"></button></li>&nbsp;&nbsp;
+                </ul>
+            </div>
+            <button id="next" class="nextclass">Next</button>
+            <button id="restart" class="hidden">Restart</button>
+            <button class="showresult" id="result">Show Result</button>
+        </fieldset>
+    </div>
+    <script src="ages.js">
+    </script>
+  </body>
+</html>

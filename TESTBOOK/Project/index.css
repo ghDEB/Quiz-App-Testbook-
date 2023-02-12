@@ -1,0 +1,96 @@
+#main
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .user{
+        border: solid 2px black;
+        border-radius: 10px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        background-image: url('cover.jpg');
+      }
+      .category
+      {
+        visibility: hidden;
+      }
+      .category1
+      {
+        border: solid 2px black;
+        border-radius: 10px 10px 10px 10px;
+        height: auto;  
+        justify-content: center;
+        text-align: center;
+        visibility: visible;
+        background-image: url('cover.jpg');
+      }
+      #catgeroy-buttons1,#catgeroy-buttons2,#catgeroy-buttons3,#catgeroy-buttons4
+      {
+        border:  solid 1px aqua;
+        background-color: rgb(211, 237, 237);
+        border-radius: 10px 10px 10px 10px;
+        height: 50px;
+        width: 450px;
+      }
+      #catgeroy-div
+      {
+        padding: 30px;
+      }
+      #enter,#clear
+      {
+        border-color: rgb(77, 137, 234);
+        background-color: rgb(77, 137, 234);
+        border-radius: 2px 2px 2px 2px;
+        color: white;
+      }
+      h1{
+        color: rgb(31, 16, 241);
+      }
+      #middle
+      {
+        height: 50px;
+        background-color: azure;
+      }
+      #middleline
+      {
+        justify-content: center;
+        text-align: center;
+        color: black;
+        
+      }
+      
+      img{
+        width:100px;
+        height:50px;
+        position: relative;
+        top: 10px;
+        opacity: 0.9;
+        border: solid 2px black;
+        border: 50%;
+      }
+      #video
+      {
+        position: absolute;
+        left:900px;
+        top:30px;
+        opacity: 0.8;
+        border: solid 2px black;
+        border-radius: 20px;
+      }
+      #qstime
+      {
+        position: relative;
+        left: 10px;
+      }
+      img#academy
+      {
+        position: absolute;
+        left: 100px;
+        top: 85px;
+        width: 150px;
+        height: 100px;
+        opacity: 0.6;
+        border: solid 1.5px black;
+        border-radius: 20px;
+      }

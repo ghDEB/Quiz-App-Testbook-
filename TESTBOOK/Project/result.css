@@ -1,0 +1,44 @@
+#scorepage{
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+}
+#restart,#home
+{
+    position: relative;
+    left: 530px;
+    top: 50px;
+border:  solid 1px aqua;
+background-color: rgb(211, 237, 237);
+border-radius: 10px 10px 10px 10px;
+height: 30px;
+width: 100px;
+visibility: visible;
+}
+#restartanchor,#homeanchor
+{
+    text-decoration: none;
+}
+#results
+{
+   position: relative;
+   left: 370px;
+    text-align: center;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+}
+#flexapply
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

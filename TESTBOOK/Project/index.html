@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web site created using javascript"/>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="main">
+      <div class="user">
+        <img id="academy" src="skillacademy.jpg" alt="skill academy logo">
+        <iframe id="video" width="300" height="203" src="https://www.youtube.com/embed/1EYmVAmXPhc" title="Full Stack Development Career Program | Become Job Ready with Skill Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <img src="testbook.jpg" alt="testbookLogo">
+          <h1>Hello User!</h1>
+          <h4><b>Enter your name to continue the quiz</b></h4>
+          <div>
+            <input type="text" id="inputdata" value="" placeholder="ENTER YOUR NAME">
+            <button id="enter">Enter</button>
+            <button id="clear">Clear</button>
+          </div>
+          <p  id="qstime"><b>You'll have 100 seconds to answer all the questions of each category</b></p>
+      </div>
+      <div id="middle">
+        <i><h3 id="middleline"></h3></i>
+      </div>
+      <div class="category" id="catgeroy-section">
+        <h1>Select Catagory</h1>
+        <div id="catgeroy-div">
+          <button id="catgeroy-buttons1" >Pipes And Cisterns</button>
+          <button id="catgeroy-buttons2" class="probability">Probability</button>
+        </div>
+        <div id="catgeroy-div">
+          <button id="catgeroy-buttons3"class="ages">Problem on Ages</button>
+          <button id="catgeroy-buttons4" class="profitloss">Profit and Loss</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
