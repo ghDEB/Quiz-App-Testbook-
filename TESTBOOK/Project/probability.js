@@ -104,7 +104,7 @@ pipedata.addEventListener("click",()=>
     restart.classList.add("visible");
     next.classList.remove("nextclass");
     next.classList.add("nextclass1")
-    var max=10;
+    var max=100;
     var i=1;
     function timer()
     { 
